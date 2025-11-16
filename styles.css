@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ffffff;
+    color: #343a40;
+}
+
+/* Sidebar del carrito */
+.cart-sidebar {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 350px;
+    height: 100%;
+    background: #f8f9fa;
+    border-left: 3px solid #007BFF;
+    padding: 20px;
+    transition: 0.3s;
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+.cart-sidebar.active {
+    right: 0;
+}
+
+.list-group-item img {
+    width: 50px;
+}
+
+.btn-danger {
+    font-size: 0.8rem;
+}
